@@ -13,7 +13,7 @@ models = {
     "Randomforest_Hypertuned": joblib.load("Randomforest_Hypertuned_model.pkl")
 }
 
-st.title("Loan status Prediction App by Ashish")
+st.title("Loan status Prediction App")
 st.write("Predict whether a person loan is Approved or Rejected using different models.")
 
 # Sidebar: select model
